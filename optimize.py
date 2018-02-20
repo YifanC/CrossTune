@@ -23,7 +23,7 @@ def cross_tune(params, w=(100, 1)):
     global para
     global part_res
 
-    exe = ["./LaserCrossTune"]
+    exe = ["./../LaserCrossTune"]
     pars = [str(p) for p in params]
     print(params)
     para.append(params)
